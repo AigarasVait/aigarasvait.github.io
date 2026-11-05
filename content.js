@@ -31,25 +31,31 @@ window.portfolio = {
     },
     {
       "title": "Fintech Risk Assessment",
-      "category": "Full-stack & deployment",
+      "category": "Full-stack & ML engineering",
       "kind": "fullstack",
       "status": "April 2026",
-      "description": "A collaboratively developed financial risk assessment platform designed for small financial institutions.",
+      "description": "A collaborative financial risk assessment platform with a FastAPI microservice that extracts data from Lithuanian reports using rule-based parsing and Llama 3.2 via Ollama.",
       "tags": [
         "React",
         "TypeScript",
         "Java",
         "MariaDB",
+        "Python",
+        "FastAPI",
+        "Llama 3.2",
+        "Ollama",
         "Docker"
       ],
-      "context": "Collaborative project · Financial risk assessment platform",
+      "context": "Collaborative project · Financial risk assessment & ML engineering",
       "highlights": [
         "Collaboratively developed a platform for financial risk assessment.",
+        "Integrated Llama 3.2 via Ollama to extract financial data from Lithuanian reports.",
+        "Combined rule-based parsing, LLM fallback, and output validation in a FastAPI microservice.",
         "Researched local regulatory and legal requirements for high-security financial systems.",
         "Built the application using React, TypeScript, and Java, with MariaDB for data management.",
         "Used Docker for containerisation and deployment, and hosted the completed application."
       ],
-      "repo": "",
+      "repo": "https://github.com/googed2much/finrizika-backend",
       "demo": ""
     },
     {
